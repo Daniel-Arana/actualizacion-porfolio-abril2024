@@ -127,6 +127,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 2rem;
 }
 
 .contenido__contenedor__texto__encabezado{
@@ -524,9 +525,5 @@ body{
 
     .navegador__boton--esconder{
         display: block;
-    }
-
-    .contenido__contenedor__texto{
-        padding: 2rem;
     }
 } 
