@@ -525,57 +525,8 @@ body{
     .navegador__boton--esconder{
         display: block;
     }
-} 
 
-
-/* max-width: 576px */
-@media screen and (max-width: 576px){
-
-    .navegador__lista{
-        flex-direction: column;
-        padding: 0;
-    }
-    
-    .navegador__elementoLista__enlace{
-        display: none;
-    }
-} 
-
-
-/* max-width:460px */
-@media screen and (max-width: 460px){
-    .navegador__lista{
-        flex-direction: column;
-        padding: 0;
-    }
-    
-    .navegador__elementoLista__enlace{
-        display: none;
-    }
-} 
-
-
-/* max-width: 360px */
-@media screen and (max-width: 360px){
-    .navegador__lista{
-        flex-direction: column;
-        padding: 0;
-    }
-    
-    .navegador__elementoLista__enlace{
-        display: none;
-    }
-} 
-
-
-/* max-width: 260px */
-@media screen and (max-width: 260px){
-    .navegador__lista{
-        flex-direction: column;
-        padding: 0;
-    }
-    
-    .navegador__elementoLista__enlace{
-        display: none;
+    .contenido__contenedor__texto{
+        padding: 2rem;
     }
 } 
