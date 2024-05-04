@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../contacto/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./script/index.js"></script>
+</head>
+<body>
+    <main class="main">
+        
+        <!-- Inicio cabecera -->
+        <header class="cabecera">
+
+            <!-- Inicio cabecera__contenedor -->
+            <div class="cabecera__contenedor">
+
+                <!-- Inicio cabecera__contenedor__navegador -->
+                <nav class="cabecera__contenedor__navegador" id="navegador">
+
+                    <ul class="navegador__lista" id = "navegadorLista">
+
+                        <li class="navegador__elementoLista navegador__elementoLista--esconder"><button type="button" class="navegador__boton navegador__boton--esconder" id="botonCerrar">&times;</button></li>
+                        <li class="navegador__elementoLista"><a href="../inicio/index.html" class="navegador__elementoLista__enlace">Inicio</a></li>
+                        <li class="navegador__elementoLista"><a href="../proyectos/index.html" class="navegador__elementoLista__enlace">Proyectos</a></li>
+                        <li class="navegador__elementoLista"><a href="../bio/index.html" class="navegador__elementoLista__enlace">Bio</a></li>
+                        <li class="navegador__elementoLista"><a href="../cv/index.html" class="navegador__elementoLista__enlace">CV</a></li>
+                        <li class="navegador__elementoLista"><a href="../contacto/index.html" class="navegador__elementoLista__enlace">Contacto</a></li>
+                        
+                    
+                    </ul>
+
+                </nav> <!-- Fin cabecera__contenedor__navegador -->
+
+                <!-- botón cerrar de la cabecera para responsive -->
+                <button type="button" class="navegador__boton navegador__boton--esconder" id="botonAbrir">&#9776;</button>
+
+            </div> <!-- Fin cabecera__contenedor -->
+
+
+        </header> <!-- Fin cabecera -->
+
+
+
+
+
+    
+        <section class="formulario">
+
+            <div class="formulario__contenedor">
+
+                <div class="formulario__contenedor__contenido">
+
+                    <h3 class="contactame"><span>Ponte en contacto</span></h3>
+                    <form action="" class="formulario__contenedor__contenido__formulario" id="formulario">
+                        <label for="nombre" class="nombre">Nombre:</label>
+                        <input name="nombre" required type="text" class="contenedorNombre" id="nombre">
+                        <label for="email" class="email">Email:</label>
+                        <input name="email" required type="text" class="contenedorEmail" id="email">
+                        <label for="mensaje" class="mensaje">Mensaje:</label>
+                        <textarea name="mensaje" class="contenedorMensaje" id="mensaje" cols="30" rows="10"></textarea>
+                    </form>
+
+                    <form action="" class="formulario__contenedor__soloBoton"><button type="submit" class="btn__enviar">Enviar mensaje</button></form>
+
+                    <a href="mailto:daniaranaudiovisual@gmail.com" class="mailto" id="mailto"></a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+    
+    
+</body>
+</html>
